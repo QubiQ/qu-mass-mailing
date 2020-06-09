@@ -1,0 +1,141 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mass_mailing_template
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-06 13:55+0000\n"
+"PO-Revision-Date: 2020-06-06 15:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__active
+msgid "Active"
+msgstr ""
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing__body_arch
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__body_arch
+msgid "Body"
+msgstr "Contenido"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing__body_html
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__body_html
+msgid "Body converted to be send by mail"
+msgstr "Contenido convertido para ser enviado por correo"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__id
+msgid "ID"
+msgstr ""
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: mass_mailing_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_template.mailing_mailing_template_edit_view_form
+#: model_terms:ir.ui.view,arch_db:mass_mailing_template.mailing_mailing_template_view_form
+msgid "Mail Body"
+msgstr "Cuerpo del mensaje"
+
+#. module: mass_mailing_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_template.mailing_mailing_template_edit_view_form
+#: model_terms:ir.ui.view,arch_db:mass_mailing_template.mailing_mailing_template_view_form
+msgid "Mail Template"
+msgstr "Plantilla correo"
+
+#. module: mass_mailing_template
+#: model:ir.actions.act_window,name:mass_mailing_template.mailing_mailing_template_action
+msgid "Mailing Template"
+msgstr "Plantillas de Correo masivo"
+
+#. module: mass_mailing_template
+#: model:ir.model,name:mass_mailing_template.model_mailing_mailing_template
+msgid "Mailing Templates"
+msgstr "Plantillas de Correo masivo"
+
+#. module: mass_mailing_template
+#: model:ir.model,name:mass_mailing_template.model_mailing_mailing
+msgid "Mass Mailing"
+msgstr "Correo masivo"
+
+#. module: mass_mailing_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_template.mailing_mailing_template_edit_view_form
+#: model_terms:ir.ui.view,arch_db:mass_mailing_template.mailing_mailing_template_view_form
+msgid "Participants"
+msgstr "Participantes"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__mailing_model_id
+msgid "Recipients Model"
+msgstr "Modelo destinatario"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing__email_from
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__email_from
+msgid "Send From"
+msgstr "Enviado desde"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing__subject
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__subject
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,help:mass_mailing_template.field_mailing_mailing__subject
+#: model:ir.model.fields,help:mass_mailing_template.field_mailing_mailing_template__subject
+msgid "Subject of emails to send"
+msgstr "Asunto de correos electrónicos para enviar"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing__template_id
+msgid "Template"
+msgstr "Plantilla"
+
+#. module: mass_mailing_template
+#: model:ir.ui.menu,name:mass_mailing_template.mailing_mailing_template_menu_act
+msgid "Templates"
+msgstr "Plantillas"
+
+#. module: mass_mailing_template
+#: model:ir.model.fields,field_description:mass_mailing_template.field_mailing_mailing_template__use_default
+msgid "Use By Default"
+msgstr "Usar por defecto"

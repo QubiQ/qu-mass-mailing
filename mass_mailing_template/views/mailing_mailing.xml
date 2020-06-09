@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Copyright 2019 Jesus Ramoneda <jesus.ramoneda@qubiq.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <!-- mailing.mailing inherit form view -->
+    <record id="view_mail_mass_mailing_form" model="ir.ui.view">
+        <field name="name">mailing.mailing.inherit.view.form</field>
+        <field name="model">mailing.mailing</field>
+        <field name="inherit_id" ref="mass_mailing.view_mail_mass_mailing_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='subject']" position="before">
+            <field name="template_id" domain="[('mailing_model_id','=', mailing_model_id)]" context="{
+                                    'default_mailing_model_id': mailing_model_id,
+                                    'default_subject': subject,
+                                    'form_view_ref': 'mass_mailing_template.mailing_mailing_template_edit_view_form'}" options="{'no_quick_create': True}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

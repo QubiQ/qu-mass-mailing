@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mailing_mailing_template,access.mailing.mailing.template,model_mailing_mailing_template,mass_mailing.group_mass_mailing_user,1,1,1,1
